@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.item  {
+    border: 2px dotted black;
+    width: 100px;
+    height: 100px;
+}
+
+.item  .item1 {
+    background-color: aqua;
+}
+
+.item .item2 {
+    background-color: blueviolet;
+}
+
+.item .item3    {
+    background-color: brown;
+}
+
+.item .item4 {
+    background-color: chartreuse;
+}
+
+.item .item5  {
+    background-color: darkorange;
+}
